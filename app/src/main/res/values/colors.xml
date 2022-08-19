@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="red_fiap">#FFF50057</color>
+    <color name="red_fiap_transparent">#88F50057</color>
     <color name="black_fiap">#FF1B1D1E</color>
 </resources>
