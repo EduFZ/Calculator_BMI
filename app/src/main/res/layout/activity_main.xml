@@ -98,7 +98,7 @@
             android:layout_marginBottom="4dp"/>
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/edit_text_weight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -117,7 +117,7 @@
             android:layout_marginBottom="4dp"/>
 
         <EditText
-            android:id="@+id/editTextNumberDecimal"
+            android:id="@+id/edit_text_height"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -126,7 +126,7 @@
             android:padding="12dp"/>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_calculate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/calculate"
