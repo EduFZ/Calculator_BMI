@@ -37,12 +37,13 @@ class MainActivity : AppCompatActivity() {
         var height = editTextHeight.text.toString().toDouble()
         
         var bmi = bmiCalculate(weight, height)
+        var resultado = bmiStatus(bmi)
 
         // Abrir a activity de resultado
 
         val openResult = Intent(this, ResultActivity::class.java)
         openResult.putExtra("bmi_value", bmi)
-        openResult.putExtra("status", "Você está com peso ideal!")
+        openResult.putExtra("status", resultado)
         startActivity(openResult)
         
     }

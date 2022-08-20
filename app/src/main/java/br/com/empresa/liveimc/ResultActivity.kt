@@ -15,12 +15,14 @@ class ResultActivity : AppCompatActivity() {
         setContentView(R.layout.activity_result)
 
         textViewResult = findViewById(R.id.text_imc)
-        textViewResult = findViewById(R.id.text_status_imc)
+        textStatus = findViewById(R.id.text_status_imc)
 
         val bmi = intent.getDoubleExtra("bmi_value", 0.0)
 
         textViewResult.text = String.format("%.2f", bmi)
         textStatus.text = intent.getStringExtra("status")
+
+
 
     }
 }
